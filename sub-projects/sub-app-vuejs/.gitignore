@@ -1,9 +1,6 @@
 .DS_Store
 node_modules
 /dist
-/sub-projects/*/dist
-/sub-projects/*/build
-/sub-projects/*/node_modules
 
 # local env files
 .env.local
