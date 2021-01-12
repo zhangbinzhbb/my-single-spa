@@ -46,15 +46,20 @@
           background: '#fff',
           minHeight: '280px',
         }">
+
         <div>
           <div id="react-app"></div>
+
           <div id="single-vue"
                class="single-spa-vue">
             <div id="vue"></div>
           </div>
+
           <div id="angular-app"></div>
+
           <router-view :key="$route.path" />
         </div>
+
       </a-layout-content>
     </a-layout>
   </a-layout>
